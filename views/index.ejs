@@ -114,6 +114,10 @@ font-size: 2em;
                  <a class="btn btn-info twitter popup" href="https://twitter.com/intent/tweet?text=<%= text %>&url=<%= post.link %>&hashtags=<%= post.origin %>" data-id="<%= post._id %>">
                    <span class="mdi mdi-twitter"></span>
                  </a>
+
+                 <button class="btn btn-danger deactivate" data-id="<%= post._id %>">
+                   <span class="mdi mdi-radioactive"></span>
+                 </button>
             </td>
             <% } %>
           </tr>
@@ -161,7 +165,7 @@ font-size: 2em;
 
     <script type="application/javascript">
       $(document).ready(function() {
-          $('.twitter.popup').click(function() {
+          var deactivate = function() {
               var self = $(this);
 
               $.ajax({
@@ -171,7 +175,10 @@ font-size: 2em;
                   self.closest('tr').addClass('success').addClass('text-muted');
               }).fail(function() {
               });
-          });
+          };
+
+          $('.twitter.popup').click(deactivate);
+          $('.deactivate').click(deactivate);
       });
     </script>
   </body>
