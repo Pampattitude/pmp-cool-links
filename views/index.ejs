@@ -1,0 +1,171 @@
+<%
+   Date.prototype.yyyymmdd = function() {
+     var yyyy = this.getFullYear().toString();
+     var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
+     var dd  = this.getDate().toString();
+     return yyyy + '-' + (mm[1]?mm:"0"+mm[0]) + '-' + (dd[1]?dd:"0"+dd[0]); // padding
+   };
+
+   Date.prototype.hhmm = function() {
+     var hh = this.getHours().toString();
+     var mn = this.getMinutes().toString();
+     return (hh[1]?hh:"0"+hh[0]) + ':' + (mn[1]?mn:"0"+mn[0]); // padding
+   };
+
+   Date.prototype.hhmmap = function() {
+     var tm = 12 <= this.getHours() ? 'PM':'AM';
+     var hh = (this.getHours() % 12).toString();
+     var mn = this.getMinutes().toString();
+     return (hh[1]?hh:"0"+hh[0]) + ':' + (mn[1]?mn:"0"+mn[0]) + ' ' + tm; // padding
+   };
+
+   Date.prototype.yyyymmddhhmm = function() {
+     var yyyy = this.getFullYear().toString();
+     var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based
+     var dd  = this.getDate().toString();
+     var hh = this.getHours().toString();
+     var mn = this.getMinutes().toString();
+     return yyyy + '-' + (mm[1]?mm:"0"+mm[0]) + '-' + (dd[1]?dd:"0"+dd[0]) + ' ' + (hh[1]?hh:"0"+hh[0]) + ':' + (mn[1]?mn:"0"+mn[0]); // padding
+   };
+%>
+<html>
+  <head>
+    <title>Interesting stuff on Reddit</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="fragment" content="!" />
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script type="application/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-64278159-1', 'auto');ga('send', 'pageview');
+    </script>
+
+    <style>
+      .table tbody>tr>td{
+      vertical-align: middle;
+      }
+      .table thead>tr>th{
+      font-size: 1.4em;
+      text-align: center;
+      }
+    </style>
+  </head>
+
+  <body class="container-fluid" style="padding: 0;">
+    <header style="margin-bottom: 3.6em; text-align: center; border-bottom: 1px solid rgba(0, 0, 0, 0.2);">
+      <center class="jumbotron" style="margin-bottom: 0;">
+        <h1>Pampa's cool links bot</h1>
+        <div class="container" style="font-size: 4em;">
+          <div class="row">
+            <div class="col-xs-12">
+              <a href="https://www.reddit.com/" target="_blank"><span class="fa fa-home"></span></a>
+              <a href="https://www.reddit.com/" target="_blank"><span class="fa fa-reddit"></span></a>
+            </div>
+          </div>
+        </div>
+      </center>
+    </header>
+
+    <div class="container" style="padding: 0;">
+      <table class="table table-hover table-responsive table-condensed" style="width: 100%; table-layout: fixed;">
+        <thead>
+          <tr>
+            <th><span class="mdi mdi-clipboard-text"></span></th>
+            <th class="hidden-xs hidden-sm" style="width: 5em;"><span class="mdi mdi-chart-pie"></span></th>
+            <th class="hidden-xs hidden-sm" style="width: 6em;"><span class="mdi mdi-calendar"></span></th>
+            <% if ('undefined' !== typeof isAdmin && true === isAdmin) { %>
+            <th style="width: 3.6em;"><span class="mdi mdi-briefcase"></span></th>
+            <% } %>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% if ('undefined' !== typeof posts) { %>
+          <% for (var i = 0 ; posts.length > i ; ++i) {
+          var post = posts[i];
+          %>
+          <tr>
+            <td>
+              <strong style="font-size: 1.15em;"><%= post.origin %></strong>:
+              <a href="<%= post.link %>" target="_blank"><%- post.title %></a>
+            </td>
+            <td class="hidden-xs hidden-sm" style="text-align: center;">
+              <strong class="text-primary"><%= post.score %></strong>
+              <br />
+
+              <!-- 
+                   <small><%= post.percentage * 100 %>%</small>
+                   <br />
+                   -->
+
+              <small>
+                <strong class="text-success"><span class="mdi mdi-arrow-up-bold-circle"></span> <%= post.votes.ups %></strong>
+                -
+                <strong class="text-danger"><%= post.votes.downs %> <span class="mdi mdi-arrow-down-bold-circle"></span></strong>
+              </small>
+            </td>
+            <td class="hidden-xs hidden-sm" style="text-align: center;">
+              <strong class="text-primary"><%= post.date.yyyymmdd() %></strong>
+              <br />
+              <small><%= post.date.hhmmap() %></small>
+            </td>
+            <% if ('undefined' !== typeof isAdmin && true === isAdmin) { %>
+            <td style="text-align: center;">
+              <% 
+                 var text = post.title;
+                 var availableLength = 140 - (post.origin.length + 1/*#*/ + 1/* */) - 25/*url*/;
+                 if (availableLength < text.length) {
+                                       text = text.substring(0, availableLength - 3) + '...';
+                                       }
+                                       %>
+                 <a class="btn btn-info twitter popup" href="https://twitter.com/intent/tweet?text=<%= text %>&url=<%= post.link %>&hashtags=<%= post.origin %>">
+                   <span class="mdi mdi-twitter"></span>
+                 </a>
+            </td>
+            <% } %>
+          </tr>
+          <% } %>
+          <% } %>
+        </tbody>
+      </table>
+    </div>
+
+    <footer style="margin-top: 3.6em; padding-top: 1em; text-align: center; border-top: 1px solid rgba(0, 0, 0, 0.2);">
+      <p>
+        Made with <span style="color:rgb(200, 140, 200);">love</span>, <a href="http://getbootstrap.com">Bootstrap</a>, <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> and <a href="https://materialdesignicons.com/">MD icons</a>.
+      </p>
+
+      <% if ('undefined' !== typeof isAdmin && true === isAdmin) { %>
+      <p style="font-size:1.2em;">
+        Also, you shouldn't be here. <a href="/">Get the hell out</a>.
+      </p>
+      <% } %>
+    </footer>
+
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+  $('.twitter.popup').click(function(event) {
+    var width  = 575,
+        height = 400,
+        left   = ($(window).width()  - width)  / 2,
+        top    = ($(window).height() - height) / 2,
+        url    = this.href,
+        opts   = 'status=1' +
+                 ',width='  + width  +
+                 ',height=' + height +
+                 ',top='    + top    +
+                 ',left='   + left;
+    
+    window.open(url, 'twitter', opts);
+ 
+    return false;
+  });
+    </script>
+  </body>
+</html>

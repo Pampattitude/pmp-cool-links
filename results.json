@@ -1,0 +1,1317 @@
+Getting posts for /r/gamedesign...
+26 posts obtained for /r/gamedesign
+Getting posts for /r/gamedev...
+14 posts obtained for /r/gamedev
+Getting posts for /r/IndieGaming...
+35 posts obtained for /r/IndieGaming
+Getting posts for /r/node...
+4 posts obtained for /r/node
+Getting posts for /r/playmygame...
+26 posts obtained for /r/playmygame
+Getting posts for /r/Unity2D...
+6 posts obtained for /r/Unity2D
+Getting posts for /r/Unity3D...
+6 posts obtained for /r/Unity3D
+{
+  "gamedesign": [
+    {
+      "title": "Gamasutra - A quick argument for 'luck' in strategy game design, from X-COM's creator",
+      "link": "http://www.gamasutra.com/view/news/249978/A_quick_argument_for_luck_in_strategy_game_design_from_XCOMs_creator",
+      "score": 25,
+      "percentage": 1,
+      "votes": {
+        "ups": 25,
+        "downs": 0
+      },
+      "date": "2015-08-06T08:31:24.000Z"
+    },
+    {
+      "title": "An article about why we should care about systems designed to cultivate addiction, and why we don't",
+      "link": "http://keithburgun.net/psychological-exploitation-in-games/",
+      "score": 36,
+      "percentage": 1,
+      "votes": {
+        "ups": 36,
+        "downs": 0
+      },
+      "date": "2015-08-05T23:12:41.000Z"
+    },
+    {
+      "title": "How to make quality game content with 7 steps",
+      "link": "http://blackseaodyssey.com/2015/08/05/how-to-make-quality-game-content-with-7-steps/",
+      "score": 45,
+      "percentage": 1,
+      "votes": {
+        "ups": 45,
+        "downs": 0
+      },
+      "date": "2015-08-04T22:24:15.000Z"
+    },
+    {
+      "title": "Ask 4 Asset - Free 2D Game Assets and Resources",
+      "link": "http://ask4asset.com",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-08-03T02:12:15.000Z"
+    },
+    {
+      "title": "The 14 Deadly Sins of Graphic-Adventure Design (or, Why Ron Gilbert Hated Adventure Games)",
+      "link": "http://www.filfre.net/2015/07/the-14-deadly-sins-of-graphic-adventure-design/",
+      "score": 56,
+      "percentage": 1,
+      "votes": {
+        "ups": 56,
+        "downs": 0
+      },
+      "date": "2015-08-01T09:28:10.000Z"
+    },
+    {
+      "title": "Great overview of Color in games: An in-depth look at one of game design's most useful tools",
+      "link": "http://www.gamasutra.com/blogs/HermanTulleken/20150729/249761/Color_in_Games.php",
+      "score": 72,
+      "percentage": 1,
+      "votes": {
+        "ups": 72,
+        "downs": 0
+      },
+      "date": "2015-07-31T21:57:04.000Z"
+    },
+    {
+      "title": "Paper Jam 3 Themes Are Up - Make a printable paper game over 10 days. Starts now! [in /r/tabletopgamedesign]",
+      "link": "https://www.reddit.com/r/tabletopgamedesign/comments/3fb40a/paper_jam_4_themes_are_up_make_a_printable_paper/",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-07-31T16:50:25.000Z"
+    },
+    {
+      "title": "Interesting article on Designing for multi-age coop play",
+      "link": "http://flip.it/2XlJg",
+      "score": 15,
+      "percentage": 1,
+      "votes": {
+        "ups": 15,
+        "downs": 0
+      },
+      "date": "2015-07-31T12:22:06.000Z"
+    },
+    {
+      "title": "Balancing Path of Exile",
+      "link": "https://www.pathofexile.com/forum/view-thread/55099",
+      "score": 37,
+      "percentage": 1,
+      "votes": {
+        "ups": 37,
+        "downs": 0
+      },
+      "date": "2015-07-31T00:01:42.000Z"
+    },
+    {
+      "title": "[Devil's Advocate] Why We Need Custom Controls",
+      "link": "https://www.youtube.com/watch?v=YEX9a-AjsnI",
+      "score": 12,
+      "percentage": 1,
+      "votes": {
+        "ups": 12,
+        "downs": 0
+      },
+      "date": "2015-07-30T02:23:50.000Z"
+    },
+    {
+      "title": "Are survival horror games like Amnesia and Outlast broken?",
+      "link": "http://magicfryingpan.com/survival-horror-is-broken/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-07-29T20:41:28.000Z"
+    },
+    {
+      "title": "How we plan to prevent VR sickness with game design in FATED",
+      "link": "http://fatedblog.com/2015/07/28/how-can-we-prevent-vr-sickness-with-level-design/",
+      "score": 20,
+      "percentage": 1,
+      "votes": {
+        "ups": 20,
+        "downs": 0
+      },
+      "date": "2015-07-29T15:59:54.000Z"
+    },
+    {
+      "title": "Starter’s Guide to Game Writing",
+      "link": "http://www.gamasutra.com/blogs/AnatolyShestov/20150724/249460/Starters_Guide_to_Game_Writing.php",
+      "score": 75,
+      "percentage": 1,
+      "votes": {
+        "ups": 75,
+        "downs": 0
+      },
+      "date": "2015-07-28T06:40:24.000Z"
+    },
+    {
+      "title": "Paper Jam 4 - Make a printable paper game over ~10 days. Starts next Friday. [in /r/tabletopgamedesign]",
+      "link": "https://www.reddit.com/r/tabletopgamedesign/comments/3es0ex/paper_jam_4_make_a_printable_paper_game_over_10/",
+      "score": 26,
+      "percentage": 1,
+      "votes": {
+        "ups": 26,
+        "downs": 0
+      },
+      "date": "2015-07-27T15:02:03.000Z"
+    },
+    {
+      "title": "Rethinking Gold as a Currency",
+      "link": "https://www.pathofexile.com/forum/view-thread/55102/",
+      "score": 50,
+      "percentage": 1,
+      "votes": {
+        "ups": 50,
+        "downs": 0
+      },
+      "date": "2015-07-22T22:09:03.000Z"
+    },
+    {
+      "title": "3MGD Smart Moves - Episode 1: Damage %",
+      "link": "https://www.youtube.com/watch?v=Ga0X7EtSuI0",
+      "score": 8,
+      "percentage": 1,
+      "votes": {
+        "ups": 8,
+        "downs": 0
+      },
+      "date": "2015-07-22T18:26:36.000Z"
+    },
+    {
+      "title": "The Anatomy of a Bad Game (2012)",
+      "link": "http://www.gamasutra.com/view/feature/171446/the_anatomy_of_a_bad_game.php",
+      "score": 11,
+      "percentage": 1,
+      "votes": {
+        "ups": 11,
+        "downs": 0
+      },
+      "date": "2015-07-22T15:00:14.000Z"
+    },
+    {
+      "title": "Guild of Dungeoneering game design (interview)",
+      "link": "http://tay.kinja.com/guild-of-dungeoneering-building-dungeons-bribing-du-1717341037",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-07-22T14:17:52.000Z"
+    },
+    {
+      "title": "Comparison of the openings/tutorials in Dark Souls 1 &amp; 2 (x-post from r/gamedev)",
+      "link": "https://www.youtube.com/watch?v=MB8mZrB_fdw",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-22T01:28:18.000Z"
+    },
+    {
+      "title": "Preventing Mechanic Burnout",
+      "link": "http://gamasutra.com/blogs/AsherEinhorn/20150601/244757/Preventing_mechanic_burnout_A_cutthroat_rule_of_game_design.php",
+      "score": 18,
+      "percentage": 1,
+      "votes": {
+        "ups": 18,
+        "downs": 0
+      },
+      "date": "2015-07-20T14:43:38.000Z"
+    },
+    {
+      "title": "Banjo Tooie's Design in respect to Banjo Kazooie's, and what this means for Yooka Laylee",
+      "link": "https://www.youtube.com/watch?v=VP6cdqvEgVI",
+      "score": 31,
+      "percentage": 1,
+      "votes": {
+        "ups": 31,
+        "downs": 0
+      },
+      "date": "2015-07-18T17:51:03.000Z"
+    },
+    {
+      "title": "Visualizing chess piece moving patterns",
+      "link": "http://flowingdata.com/2015/06/01/chess-piece-moving-patterns/",
+      "score": 17,
+      "percentage": 1,
+      "votes": {
+        "ups": 17,
+        "downs": 0
+      },
+      "date": "2015-07-18T17:39:06.000Z"
+    },
+    {
+      "title": "Glad to find some talking the same that I do : Psychology, Human Evolution and Game Design",
+      "link": "https://youtu.be/b7SjEDLCsco",
+      "score": 15,
+      "percentage": 1,
+      "votes": {
+        "ups": 15,
+        "downs": 0
+      },
+      "date": "2015-07-18T11:17:49.000Z"
+    },
+    {
+      "title": "ROR: Donkey Kong Country 3 Dixie Kong's Double Trouble (SNES Vs. GBA)",
+      "link": "https://www.youtube.com/watch?v=rclKCt3DUEQ",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-07-17T23:00:22.000Z"
+    },
+    {
+      "title": "Lizzie Magie Invented Monopoly to Combat Greed",
+      "link": "https://www.youtube.com/watch?v=qQfEdFuvEHQ",
+      "score": 15,
+      "percentage": 1,
+      "votes": {
+        "ups": 15,
+        "downs": 0
+      },
+      "date": "2015-07-17T10:11:11.000Z"
+    },
+    {
+      "title": "/r/gamedesign hits 20K subscribers",
+      "link": "http://redditmetrics.com/r/gamedesign",
+      "score": 52,
+      "percentage": 1,
+      "votes": {
+        "ups": 52,
+        "downs": 0
+      },
+      "date": "2015-07-16T16:41:47.000Z"
+    }
+  ],
+  "gamedev": [
+    {
+      "title": "I'm stranded in a cabin in Alaska, but I have internet so AMA about video game law!",
+      "link": "http://www.reddit.com/r/gamedev/comments/3g18aj/im_stranded_in_a_cabin_in_alaska_but_i_have/",
+      "score": 217,
+      "percentage": 1,
+      "votes": {
+        "ups": 217,
+        "downs": 0
+      },
+      "date": "2015-08-06T18:25:36.000Z"
+    },
+    {
+      "title": "How do you keep your unpaid team motivated?",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fxiet/how_do_you_keep_your_unpaid_team_motivated/",
+      "score": 81,
+      "percentage": 1,
+      "votes": {
+        "ups": 81,
+        "downs": 0
+      },
+      "date": "2015-08-05T22:11:35.000Z"
+    },
+    {
+      "title": "(Article) Game developers, scammers are on the run",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fxf38/article_game_developers_scammers_are_on_the_run/",
+      "score": 93,
+      "percentage": 1,
+      "votes": {
+        "ups": 93,
+        "downs": 0
+      },
+      "date": "2015-08-05T21:46:57.000Z"
+    },
+    {
+      "title": "A Closer Look at the Paradox Game Engine",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fx0b7/a_closer_look_at_the_paradox_game_engine/",
+      "score": 51,
+      "percentage": 1,
+      "votes": {
+        "ups": 51,
+        "downs": 0
+      },
+      "date": "2015-08-05T20:04:29.000Z"
+    },
+    {
+      "title": "Freeablo - a cross platform FOSS rewrite of the Diablo 1 game engine - v0.3 released",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fwryr/freeablo_a_cross_platform_foss_rewrite_of_the/",
+      "score": 153,
+      "percentage": 1,
+      "votes": {
+        "ups": 153,
+        "downs": 0
+      },
+      "date": "2015-08-05T19:07:31.000Z"
+    },
+    {
+      "title": "20 Years of Voxel Engines (Source Code included)",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fvtn8/20_years_of_voxel_engines_source_code_included/",
+      "score": 281,
+      "percentage": 1,
+      "votes": {
+        "ups": 281,
+        "downs": 0
+      },
+      "date": "2015-08-05T15:12:20.000Z"
+    },
+    {
+      "title": "Extension methods in C#: how to add custom behaviours to Vector3, string, Rigidbody, etc, ...",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fusng/extension_methods_in_c_how_to_add_custom/",
+      "score": 62,
+      "percentage": 1,
+      "votes": {
+        "ups": 62,
+        "downs": 0
+      },
+      "date": "2015-08-05T09:00:11.000Z"
+    },
+    {
+      "title": "How to ASCIIfy your game in realtime 3d, rewritten and improved/optimized for Unity 5",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fsfw7/how_to_asciify_your_game_in_realtime_3d_rewritten/",
+      "score": 51,
+      "percentage": 1,
+      "votes": {
+        "ups": 51,
+        "downs": 0
+      },
+      "date": "2015-08-04T20:19:12.000Z"
+    },
+    {
+      "title": "I am 35 years old and one week ago I downloaded a demo of construct 2. Now I've had over a thousand players and I can't quit!",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fr3ed/i_am_35_years_old_and_one_week_ago_i_downloaded_a/",
+      "score": 560,
+      "percentage": 1,
+      "votes": {
+        "ups": 560,
+        "downs": 0
+      },
+      "date": "2015-08-04T14:48:47.000Z"
+    },
+    {
+      "title": "5 GameDev Lessons from L. Ron Hubbard",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fo36x/5_gamedev_lessons_from_l_ron_hubbard/",
+      "score": 207,
+      "percentage": 1,
+      "votes": {
+        "ups": 207,
+        "downs": 0
+      },
+      "date": "2015-08-03T21:28:40.000Z"
+    },
+    {
+      "title": "Free assets to create jumping style platformers (CC0) + news!",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fmed1/free_assets_to_create_jumping_style_platformers/",
+      "score": 69,
+      "percentage": 1,
+      "votes": {
+        "ups": 69,
+        "downs": 0
+      },
+      "date": "2015-08-03T14:19:10.000Z"
+    },
+    {
+      "title": "Thought you'd like this. Particle demo with some 2 million particles on screen.",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fllok/thought_youd_like_this_particle_demo_with_some_2/",
+      "score": 229,
+      "percentage": 1,
+      "votes": {
+        "ups": 229,
+        "downs": 0
+      },
+      "date": "2015-08-03T08:48:06.000Z"
+    },
+    {
+      "title": "BoilerPlate2D - Python Source code for 2d platformer games",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fjnhd/boilerplate2d_python_source_code_for_2d/",
+      "score": 79,
+      "percentage": 1,
+      "votes": {
+        "ups": 79,
+        "downs": 0
+      },
+      "date": "2015-08-02T21:03:28.000Z"
+    },
+    {
+      "title": "What has had the most impact in terms of marketing for your game?",
+      "link": "http://www.reddit.com/r/gamedev/comments/3fhubt/what_has_had_the_most_impact_in_terms_of/",
+      "score": 132,
+      "percentage": 1,
+      "votes": {
+        "ups": 132,
+        "downs": 0
+      },
+      "date": "2015-08-02T09:30:36.000Z"
+    }
+  ],
+  "IndieGaming": [
+    {
+      "title": "Claw Champion Earth is like Pokemon, but with arcade claw machines",
+      "link": "http://fromsmiling.itch.io/claw-champion-earth",
+      "score": 26,
+      "percentage": 1,
+      "votes": {
+        "ups": 26,
+        "downs": 0
+      },
+      "date": "2015-08-05T19:48:51.000Z"
+    },
+    {
+      "title": "Xbox Live and ID@Xbox indie games coming to HoloLens",
+      "link": "http://www.engadget.com/2015/08/03/xbox-live-idatxbox-hololens/",
+      "score": 16,
+      "percentage": 1,
+      "votes": {
+        "ups": 16,
+        "downs": 0
+      },
+      "date": "2015-08-05T13:29:54.000Z"
+    },
+    {
+      "title": "Trippy indie game about dreams nightmares 0.o (just released a few days ago)",
+      "link": "http://dreamthegame.co.uk/",
+      "score": 33,
+      "percentage": 1,
+      "votes": {
+        "ups": 33,
+        "downs": 0
+      },
+      "date": "2015-08-04T14:00:08.000Z"
+    },
+    {
+      "title": "A little game that my friend is working on. Would be great to give him some love.",
+      "link": "https://www.youtube.com/watch?v=5EJyPydq5E4",
+      "score": 50,
+      "percentage": 1,
+      "votes": {
+        "ups": 50,
+        "downs": 0
+      },
+      "date": "2015-08-03T22:22:54.000Z"
+    },
+    {
+      "title": "Assault Android Cactus is a super polished twin-stick shooter made by a small Australian team. There's even 4-player local co-op.",
+      "link": "http://store.steampowered.com/app/250110",
+      "score": 97,
+      "percentage": 1,
+      "votes": {
+        "ups": 97,
+        "downs": 0
+      },
+      "date": "2015-08-03T03:12:50.000Z"
+    },
+    {
+      "title": "Fugl - A Flying Exploration Game",
+      "link": "https://www.youtube.com/watch?v=d5tCsKt3n2g",
+      "score": 45,
+      "percentage": 1,
+      "votes": {
+        "ups": 45,
+        "downs": 0
+      },
+      "date": "2015-08-01T20:41:02.000Z"
+    },
+    {
+      "title": "Eastshade - pure exploration",
+      "link": "http://gfycat.com/PoshAbleBlackrhino",
+      "score": 139,
+      "percentage": 1,
+      "votes": {
+        "ups": 139,
+        "downs": 0
+      },
+      "date": "2015-08-01T16:56:37.000Z"
+    },
+    {
+      "title": "PuniTy - Indie developer lovingly recreates the P.T. demo in Unity",
+      "link": "http://www.the-outline.com/portfolio/punity-pt-hallway-recreation/",
+      "score": 22,
+      "percentage": 1,
+      "votes": {
+        "ups": 22,
+        "downs": 0
+      },
+      "date": "2015-08-01T09:28:41.000Z"
+    },
+    {
+      "title": "Bombernauts is SSBM meets Bomberman - from the creator of Closure - out today",
+      "link": "http://store.steampowered.com/app/246920/",
+      "score": 27,
+      "percentage": 1,
+      "votes": {
+        "ups": 27,
+        "downs": 0
+      },
+      "date": "2015-08-01T00:23:58.000Z"
+    },
+    {
+      "title": "\"Dream\" has come out of Early Access after almost 2 years",
+      "link": "http://steamcommunity.com/games/229580/announcements/detail/118569310784438731",
+      "score": 35,
+      "percentage": 1,
+      "votes": {
+        "ups": 35,
+        "downs": 0
+      },
+      "date": "2015-07-31T17:57:45.000Z"
+    },
+    {
+      "title": "Exploring the 2,360 Levels of N++ — Gameplay Overview",
+      "link": "https://www.youtube.com/watch?v=Bdrw7Y9MgS4",
+      "score": 30,
+      "percentage": 1,
+      "votes": {
+        "ups": 30,
+        "downs": 0
+      },
+      "date": "2015-07-31T15:48:58.000Z"
+    },
+    {
+      "title": "I glitched retro racer Drift Stage and got some cool wallpapers.",
+      "link": "http://imgur.com/a/LthjN",
+      "score": 77,
+      "percentage": 1,
+      "votes": {
+        "ups": 77,
+        "downs": 0
+      },
+      "date": "2015-07-31T03:05:52.000Z"
+    },
+    {
+      "title": "Tangiers - A Surreal First-Person Stealth Game Set In a Nightmarish World",
+      "link": "https://www.youtube.com/watch?v=8s3F2P-OMLQ",
+      "score": 51,
+      "percentage": 1,
+      "votes": {
+        "ups": 51,
+        "downs": 0
+      },
+      "date": "2015-07-30T22:36:52.000Z"
+    },
+    {
+      "title": "I've been following Dropsy for a while now, and the new gameplay trailer definitely does not disappoint",
+      "link": "https://www.youtube.com/watch?v=SfRjByXbenA",
+      "score": 148,
+      "percentage": 1,
+      "votes": {
+        "ups": 148,
+        "downs": 0
+      },
+      "date": "2015-07-30T14:10:10.000Z"
+    },
+    {
+      "title": "Duskers Gameplay Overview",
+      "link": "https://www.youtube.com/watch?v=7S9U1wV-MKg&amp;feature=youtu.be&amp;list=PLWHgLfDKHMzy_jZFDOu7nz1ZpeVoic8Mz",
+      "score": 35,
+      "percentage": 1,
+      "votes": {
+        "ups": 35,
+        "downs": 0
+      },
+      "date": "2015-07-29T18:16:19.000Z"
+    },
+    {
+      "title": "Skullgirls Studio’s Action-RPG Indivisible, Prototype On Its Way - Siliconera",
+      "link": "http://www.siliconera.com/2015/07/29/505-games-to-publish-skullgirls-studios-action-rpg-indivisible-prototype-on-its-way/#vYBZeYTWDvIcSjOI.16",
+      "score": 21,
+      "percentage": 1,
+      "votes": {
+        "ups": 21,
+        "downs": 0
+      },
+      "date": "2015-07-29T17:47:36.000Z"
+    },
+    {
+      "title": "Iconoclasts PS4 and Vita Trailer",
+      "link": "https://www.youtube.com/watch?v=QvoiEiYOYfs",
+      "score": 74,
+      "percentage": 1,
+      "votes": {
+        "ups": 74,
+        "downs": 0
+      },
+      "date": "2015-07-29T17:03:21.000Z"
+    },
+    {
+      "title": "Indie developers report Ouya won't pay them thousands of dollars",
+      "link": "http://www.gamasutra.com/view/news/249646/Indie_developers_report_Ouya_wont_pay_them_thousands_of_dollars.php",
+      "score": 75,
+      "percentage": 1,
+      "votes": {
+        "ups": 75,
+        "downs": 0
+      },
+      "date": "2015-07-28T21:10:36.000Z"
+    },
+    {
+      "title": "Crawl update v0.6: greater spikewurm",
+      "link": "http://imgur.com/5hSXF2l.gif",
+      "score": 229,
+      "percentage": 1,
+      "votes": {
+        "ups": 229,
+        "downs": 0
+      },
+      "date": "2015-07-28T02:58:03.000Z"
+    },
+    {
+      "title": "Nature's Zombie Apocalypse launched on Steam Early Access. 1-8 players. \"Humans have succumbed to a Zombie plague....animals have been forced to take what weapons remain and fight the undead.\"",
+      "link": "http://store.steampowered.com/app/378530",
+      "score": 32,
+      "percentage": 1,
+      "votes": {
+        "ups": 32,
+        "downs": 0
+      },
+      "date": "2015-07-25T18:06:14.000Z"
+    },
+    {
+      "title": "Empyrion - Galactic Survival: Launch Trailer",
+      "link": "http://youtu.be/saK35xRzzuQ",
+      "score": 26,
+      "percentage": 1,
+      "votes": {
+        "ups": 26,
+        "downs": 0
+      },
+      "date": "2015-07-24T16:54:53.000Z"
+    },
+    {
+      "title": "Yomi, a card game that simulates a fighting game, now available on Steam",
+      "link": "http://store.steampowered.com/app/287960/",
+      "score": 48,
+      "percentage": 1,
+      "votes": {
+        "ups": 48,
+        "downs": 0
+      },
+      "date": "2015-07-23T06:44:33.000Z"
+    },
+    {
+      "title": "Indie Games in 2015 – Aesthetics and Ambition Change the Landscape",
+      "link": "http://gamerant.com/new-indie-game-trends-2015/",
+      "score": 39,
+      "percentage": 1,
+      "votes": {
+        "ups": 39,
+        "downs": 0
+      },
+      "date": "2015-07-22T08:53:31.000Z"
+    },
+    {
+      "title": "Rising Thunder: A PC-only fighting game from experts in the genre",
+      "link": "http://www.pcgamer.com/rising-thunder-a-pc-only-fighting-game-from-experts-in-the-genre/",
+      "score": 85,
+      "percentage": 1,
+      "votes": {
+        "ups": 85,
+        "downs": 0
+      },
+      "date": "2015-07-21T19:25:29.000Z"
+    },
+    {
+      "title": "Nothing to Hide has been abandoned :(",
+      "link": "http://us3.campaign-archive2.com/?u=dfc6ed35d0a2933c059395987&amp;id=47e5a7480f",
+      "score": 75,
+      "percentage": 1,
+      "votes": {
+        "ups": 75,
+        "downs": 0
+      },
+      "date": "2015-07-21T04:44:11.000Z"
+    },
+    {
+      "title": "APT - Upcoming Precision Platformer",
+      "link": "https://youtu.be/VG0kXbCSfng",
+      "score": 48,
+      "percentage": 1,
+      "votes": {
+        "ups": 48,
+        "downs": 0
+      },
+      "date": "2015-07-20T00:13:45.000Z"
+    },
+    {
+      "title": "Are you merman enough?",
+      "link": "http://imgur.com/wYRLrLe",
+      "score": 78,
+      "percentage": 1,
+      "votes": {
+        "ups": 78,
+        "downs": 0
+      },
+      "date": "2015-07-18T20:39:37.000Z"
+    },
+    {
+      "title": "Yatagarasu, an indie fighting game with heavy influence Street Fighter III: Third Strike",
+      "link": "https://www.youtube.com/watch?v=fspUxAJUZ2E",
+      "score": 39,
+      "percentage": 1,
+      "votes": {
+        "ups": 39,
+        "downs": 0
+      },
+      "date": "2015-07-17T19:11:43.000Z"
+    },
+    {
+      "title": "Team Indie is on sale at 77% off + 20% off voucher: GMGSUM-MERSAL-E20OFF",
+      "link": "http://www.greenmangaming.com/s/ca/en/pc/games/action/team-indie/?tap_a=1964-996bbb&amp;tap_s=2681-3a6e75",
+      "score": 16,
+      "percentage": 1,
+      "votes": {
+        "ups": 16,
+        "downs": 0
+      },
+      "date": "2015-07-16T15:24:53.000Z"
+    },
+    {
+      "title": "SlashDash is almost here!",
+      "link": "https://www.youtube.com/watch?v=slDCysfttro",
+      "score": 34,
+      "percentage": 1,
+      "votes": {
+        "ups": 34,
+        "downs": 0
+      },
+      "date": "2015-07-15T19:54:16.000Z"
+    },
+    {
+      "title": "Alec Holowka (@infinite_ammo) and Karen Teixeira(@bitmOO) talk about going Indie and what they've done/are doing",
+      "link": "https://www.youtube.com/watch?v=NzWVIwjH8Sg",
+      "score": 34,
+      "percentage": 1,
+      "votes": {
+        "ups": 34,
+        "downs": 0
+      },
+      "date": "2015-07-14T22:51:20.000Z"
+    },
+    {
+      "title": "Postmortem: Chris Chung's Catlateral Damage",
+      "link": "http://gamasutra.com/blogs/ChrisChung/20150713/248291/Postmortem_Chris_Chungs_Catlateral_Damage.php%20?elq=daca6af876fc4e6981f3695e0086d62e&amp;elqCampaignId=15502&amp;elqaid=62018&amp;elqat=1&amp;elqTrackId=cfc6e16c7a6f40f0a4ebcd68c7403f26",
+      "score": 25,
+      "percentage": 1,
+      "votes": {
+        "ups": 25,
+        "downs": 0
+      },
+      "date": "2015-07-14T17:16:03.000Z"
+    },
+    {
+      "title": "'Guild of Dungeoneering' launching on Steam today, just a friendly reminder.",
+      "link": "http://store.steampowered.com/app/317820/",
+      "score": 36,
+      "percentage": 1,
+      "votes": {
+        "ups": 36,
+        "downs": 0
+      },
+      "date": "2015-07-14T15:33:07.000Z"
+    },
+    {
+      "title": "Slipstream: Pseudo3D Checkpoint Racer Inspirted by Games Like Outrun",
+      "link": "https://youtu.be/dgV1WJfOyFA",
+      "score": 71,
+      "percentage": 1,
+      "votes": {
+        "ups": 71,
+        "downs": 0
+      },
+      "date": "2015-07-14T14:53:16.000Z"
+    },
+    {
+      "title": "A fun undiscovered roguelike i stumbled upon - The Depths of Tolagal",
+      "link": "https://www.youtube.com/watch?v=wKyRBnHmNl0",
+      "score": 54,
+      "percentage": 1,
+      "votes": {
+        "ups": 54,
+        "downs": 0
+      },
+      "date": "2015-07-14T00:06:22.000Z"
+    }
+  ],
+  "node": [
+    {
+      "title": "First node.js application is accepted to Apple's app store",
+      "link": "http://nubisa.com/first-node-js-application-is-accepted-to-apples-app-store/",
+      "score": 44,
+      "percentage": 1,
+      "votes": {
+        "ups": 44,
+        "downs": 0
+      },
+      "date": "2015-08-06T15:52:29.000Z"
+    },
+    {
+      "title": "io.js v3.0.0 release",
+      "link": "https://github.com/nodejs/io.js/blob/master/CHANGELOG.md#2015-08-04-version-300-rvagg",
+      "score": 43,
+      "percentage": 1,
+      "votes": {
+        "ups": 43,
+        "downs": 0
+      },
+      "date": "2015-08-05T15:21:53.000Z"
+    },
+    {
+      "title": "JAWS: The Javascript + AWS Stack",
+      "link": "https://github.com/servant-app/JAWS",
+      "score": 41,
+      "percentage": 1,
+      "votes": {
+        "ups": 41,
+        "downs": 0
+      },
+      "date": "2015-08-04T20:51:53.000Z"
+    },
+    {
+      "title": "Samsung banks on JavaScript, Node.js for IoT",
+      "link": "http://www.infoworld.com/article/2953719/javascript/samsung-banks-on-javascript-node-js-for-iot.html",
+      "score": 49,
+      "percentage": 1,
+      "votes": {
+        "ups": 49,
+        "downs": 0
+      },
+      "date": "2015-07-29T11:57:22.000Z"
+    }
+  ],
+  "playmygame": [
+    {
+      "title": "Something, Something, Spaceships! - A 2-4 player local multiplayer game",
+      "link": "http://www.reddit.com/r/playmygame/comments/3g0436/something_something_spaceships_a_24_player_local/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-08-06T13:37:49.000Z"
+    },
+    {
+      "title": "Super Donut Drifter",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fvb6c/super_donut_drifter/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-08-05T12:43:11.000Z"
+    },
+    {
+      "title": "Ricochet Theory: minimalistic ricocheting madness [iOS]",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fu0ap/ricochet_theory_minimalistic_ricocheting_madness/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-08-05T03:35:44.000Z"
+    },
+    {
+      "title": "[Other] I will play test your game and write about it on my blog",
+      "link": "http://www.reddit.com/r/playmygame/comments/3ftl20/other_i_will_play_test_your_game_and_write_about/",
+      "score": 10,
+      "percentage": 1,
+      "votes": {
+        "ups": 10,
+        "downs": 0
+      },
+      "date": "2015-08-05T01:28:23.000Z"
+    },
+    {
+      "title": "[DEV] We made a Flight Simulator game with no IAP ; 6 aircraft - 2 seaplanes - 4 fighter jets ; 9 detailed airports ; cockpit view ; vegetation ; 60+ missions ; pass-through clouds. Feedback please!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3frnio/dev_we_made_a_flight_simulator_game_with_no_iap_6/",
+      "score": 21,
+      "percentage": 1,
+      "votes": {
+        "ups": 21,
+        "downs": 0
+      },
+      "date": "2015-08-04T17:08:26.000Z"
+    },
+    {
+      "title": "[WIN][MAC] My exploration-driven platformer RPG game \"Postboy\" is out and just begging for you to play it!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fmrn2/winmac_my_explorationdriven_platformer_rpg_game/",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-08-03T16:00:55.000Z"
+    },
+    {
+      "title": "[Android] E5",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fm0ew/android_e5/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-08-03T12:07:50.000Z"
+    },
+    {
+      "title": "[PC][Web]We are celebrating getting Privateers into SIX by making a new build of our game available for people to play.",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fjv6m/pcwebwe_are_celebrating_getting_privateers_into/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-08-02T22:07:44.000Z"
+    },
+    {
+      "title": "Cardvantage (Obvious working title) playing card game.",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fj0ch/cardvantage_obvious_working_title_playing_card/",
+      "score": 9,
+      "percentage": 1,
+      "votes": {
+        "ups": 9,
+        "downs": 0
+      },
+      "date": "2015-08-02T17:50:15.000Z"
+    },
+    {
+      "title": "Check out my game Circuit Breakers, a modern take on personal favorites like Boxhead and Smash TV.",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fhr5y/check_out_my_game_circuit_breakers_a_modern_take/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-08-02T08:31:31.000Z"
+    },
+    {
+      "title": "Swing Ninja (Web) (Android) (iOS)",
+      "link": "http://www.reddit.com/r/playmygame/comments/3ff11c/swing_ninja_web_android_ios/",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-08-01T16:07:10.000Z"
+    },
+    {
+      "title": "Pixel Perfekt – oldschool hard mobile platformer with pixel perfect collisions",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fe8fu/pixel_perfekt_oldschool_hard_mobile_platformer/",
+      "score": 8,
+      "percentage": 1,
+      "votes": {
+        "ups": 8,
+        "downs": 0
+      },
+      "date": "2015-08-01T10:29:17.000Z"
+    },
+    {
+      "title": "Published my new take on matching games",
+      "link": "http://www.reddit.com/r/playmygame/comments/3fa4cv/published_my_new_take_on_matching_games/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-07-31T12:05:01.000Z"
+    },
+    {
+      "title": "\"Thought Process\" My second game!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f9en8/thought_process_my_second_game/",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-07-31T06:35:36.000Z"
+    },
+    {
+      "title": "[PC](Windows) Total Invasion II: A Wolfenstein clo- *cough* *cough* FPS WITH ACTION-Y THINGS!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f7gxd/pcwindows_total_invasion_ii_a_wolfenstein_clo/",
+      "score": 11,
+      "percentage": 1,
+      "votes": {
+        "ups": 11,
+        "downs": 0
+      },
+      "date": "2015-07-30T20:50:52.000Z"
+    },
+    {
+      "title": "We just released a location-based augmented reality strategy game! [Android/iOS]",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f72z9/we_just_released_a_locationbased_augmented/",
+      "score": 8,
+      "percentage": 1,
+      "votes": {
+        "ups": 8,
+        "downs": 0
+      },
+      "date": "2015-07-30T19:16:07.000Z"
+    },
+    {
+      "title": "Biodrone Battle out on Steam",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f6idy/biodrone_battle_out_on_steam/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-07-30T16:59:32.000Z"
+    },
+    {
+      "title": "I would love to present my very first game! \"Insert Clever Title Here\"",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f5maz/i_would_love_to_present_my_very_first_game_insert/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-30T13:01:29.000Z"
+    },
+    {
+      "title": "We just released our new game \"Tukatan\"! Check it out in both play stores!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f3kj2/we_just_released_our_new_game_tukatan_check_it/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-30T00:19:12.000Z"
+    },
+    {
+      "title": "Released my first game, it's a casual exploration/hunting game (dragonsmoke!)",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f2wkn/released_my_first_game_its_a_casual/",
+      "score": 6,
+      "percentage": 1,
+      "votes": {
+        "ups": 6,
+        "downs": 0
+      },
+      "date": "2015-07-29T21:21:45.000Z"
+    },
+    {
+      "title": "Sagittarius: local-multiplayer competitive archery based around gravity!",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f2tv2/sagittarius_localmultiplayer_competitive_archery/",
+      "score": 19,
+      "percentage": 1,
+      "votes": {
+        "ups": 19,
+        "downs": 0
+      },
+      "date": "2015-07-29T21:03:12.000Z"
+    },
+    {
+      "title": "[Video] Blast Brawl 2: Bloody Boogaloo",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f0o4d/video_blast_brawl_2_bloody_boogaloo/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-07-29T11:53:44.000Z"
+    },
+    {
+      "title": "Worlds Crisis - My First FPS Game",
+      "link": "http://www.reddit.com/r/playmygame/comments/3f0lnv/worlds_crisis_my_first_fps_game/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-29T11:25:09.000Z"
+    },
+    {
+      "title": "Bit Wing: A Retro, Extremely Difficult Arcade Shooter",
+      "link": "http://www.reddit.com/r/playmygame/comments/3ez0p0/bit_wing_a_retro_extremely_difficult_arcade/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-29T01:12:48.000Z"
+    },
+    {
+      "title": "Medal Run",
+      "link": "http://www.reddit.com/r/playmygame/comments/3eyun5/medal_run/",
+      "score": 7,
+      "percentage": 1,
+      "votes": {
+        "ups": 7,
+        "downs": 0
+      },
+      "date": "2015-07-29T00:23:26.000Z"
+    },
+    {
+      "title": "Grapple",
+      "link": "http://www.reddit.com/r/playmygame/comments/3evrn9/grapple/",
+      "score": 5,
+      "percentage": 1,
+      "votes": {
+        "ups": 5,
+        "downs": 0
+      },
+      "date": "2015-07-28T10:12:14.000Z"
+    }
+  ],
+  "Unity2D": [
+    {
+      "title": "*Swish* *Swoosh* Added a boomerang attack",
+      "link": "http://gfycat.com/leftcomposedbarracuda",
+      "score": 57,
+      "percentage": 1,
+      "votes": {
+        "ups": 57,
+        "downs": 0
+      },
+      "date": "2015-08-06T14:57:35.000Z"
+    },
+    {
+      "title": "I made some animations for my game's UI",
+      "link": "http://i.imgur.com/vRm7Urn.gif",
+      "score": 49,
+      "percentage": 1,
+      "votes": {
+        "ups": 49,
+        "downs": 0
+      },
+      "date": "2015-08-04T12:22:48.000Z"
+    },
+    {
+      "title": "Polished rhino charge attack! Now destroys crates to progress.",
+      "link": "http://imgur.com/uYiXCLR",
+      "score": 35,
+      "percentage": 1,
+      "votes": {
+        "ups": 35,
+        "downs": 0
+      },
+      "date": "2015-08-03T03:37:48.000Z"
+    },
+    {
+      "title": "I wonder if \"Is Trigger\" is important",
+      "link": "http://gfycat.com/DangerousDelayedIberianmole",
+      "score": 69,
+      "percentage": 1,
+      "votes": {
+        "ups": 69,
+        "downs": 0
+      },
+      "date": "2015-08-02T00:07:23.000Z"
+    },
+    {
+      "title": "Photoshop Scripting is pretty damn useful, wrote a script that takes my rendered images and converts them to a 'pixel art' style and puts them into a spritesheet for animation",
+      "link": "http://www.gfycat.com/ChiefHardtofindArrowcrab",
+      "score": 53,
+      "percentage": 1,
+      "votes": {
+        "ups": 53,
+        "downs": 0
+      },
+      "date": "2015-08-01T16:56:59.000Z"
+    },
+    {
+      "title": "Really liking how my Rhino's charge ability animation turned out.",
+      "link": "http://imgur.com/p9j3Czj",
+      "score": 49,
+      "percentage": 1,
+      "votes": {
+        "ups": 49,
+        "downs": 0
+      },
+      "date": "2015-07-31T04:28:27.000Z"
+    }
+  ],
+  "Unity3D": [
+    {
+      "title": "Unity5Effects",
+      "link": "https://github.com/i-saint/Unity5Effects",
+      "score": 153,
+      "percentage": 1,
+      "votes": {
+        "ups": 153,
+        "downs": 0
+      },
+      "date": "2015-08-06T14:27:06.000Z"
+    },
+    {
+      "title": "In need of help. What is causing the edge between the two different objects when interacting with light sources?",
+      "link": "http://gfycat.com/InfinitePerfectKudu",
+      "score": 57,
+      "percentage": 1,
+      "votes": {
+        "ups": 57,
+        "downs": 0
+      },
+      "date": "2015-08-05T21:07:21.000Z"
+    },
+    {
+      "title": "Game Boy emulator for Unity on GitHub",
+      "link": "https://github.com/Takohi-Jona/unity-gb",
+      "score": 104,
+      "percentage": 1,
+      "votes": {
+        "ups": 104,
+        "downs": 0
+      },
+      "date": "2015-08-05T03:19:13.000Z"
+    },
+    {
+      "title": "Passing by the forrest",
+      "link": "http://gfycat.com/AmusedGenerousLadybird",
+      "score": 58,
+      "percentage": 1,
+      "votes": {
+        "ups": 58,
+        "downs": 0
+      },
+      "date": "2015-08-04T20:46:05.000Z"
+    },
+    {
+      "title": "(Giveaway) Whenever I go somewhere interesting and away from civilization I bring my field recorder to record the ambient nature sounds! Hear them in action, and download a big zip full of them you can use in your game for free! (link in comments)",
+      "link": "https://www.youtube.com/watch?v=P5hjHTtU4rg",
+      "score": 76,
+      "percentage": 1,
+      "votes": {
+        "ups": 76,
+        "downs": 0
+      },
+      "date": "2015-08-04T20:19:56.000Z"
+    },
+    {
+      "title": "I scripted the Gnome's Rescue!",
+      "link": "http://gfycat.com/FlusteredScaryCuttlefish",
+      "score": 41,
+      "percentage": 1,
+      "votes": {
+        "ups": 41,
+        "downs": 0
+      },
+      "date": "2015-08-04T19:57:51.000Z"
+    }
+  ]
+}
