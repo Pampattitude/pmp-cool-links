@@ -46,6 +46,7 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
         externalId: post.data.id,
         
         title: post.data.title,
+        author: post.data.author,
         link: post.data.url,
 
         score: post.data.score,

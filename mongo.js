@@ -8,6 +8,7 @@ var registerSchemas_ = function() {
 
     origin: {type: String, required: true, default: 'Reddit'},
     title: {type: String, required: true},
+    author: {type: String, default: 'unknown'},
     link: {type: String, required: true},
 
     score: {type: Number, required: true},
