@@ -20,6 +20,7 @@ var registerSchemas_ = function() {
     },
 
     date: {type: Date, default: Date.now},
+    active: {type: Boolean, default: true},
   });
 
   mongoose.model('Post', schema, 'posts');

@@ -82,7 +82,7 @@ font-size: 2em;
           <% for (var i = 0 ; posts.length > i ; ++i) {
           var post = posts[i];
           %>
-          <tr>
+          <tr<% if ('undefined' !== typeof post.active && false === post.active) { %> class="success text-muted"<% } %>>
             <td>
               <strong style="font-size: 1.15em;"><%= post.origin %></strong>:
               <a href="<%= post.link %>" target="_blank"><%- post.title %></a>
@@ -111,7 +111,7 @@ font-size: 2em;
                                        text = text.substring(0, availableLength - 3) + '...';
                                        }
                                        %>
-                 <a class="btn btn-info twitter popup" href="https://twitter.com/intent/tweet?text=<%= text %>&url=<%= post.link %>&hashtags=<%= post.origin %>">
+                 <a class="btn btn-info twitter popup" href="https://twitter.com/intent/tweet?text=<%= text %>&url=<%= post.link %>&hashtags=<%= post.origin %>" data-id="<%= post._id %>">
                    <span class="mdi mdi-twitter"></span>
                  </a>
             </td>
@@ -140,7 +140,7 @@ font-size: 2em;
     </footer>
 
     <script src="/js/bootstrap.min.js"></script>
-    <script>
+    <script type="application/javascript">
   $('.twitter.popup').click(function(event) {
     var width  = 575,
         height = 400,
@@ -157,6 +157,22 @@ font-size: 2em;
  
     return false;
   });
+    </script>
+
+    <script type="application/javascript">
+      $(document).ready(function() {
+          $('.twitter.popup').click(function() {
+              var self = $(this);
+
+              $.ajax({
+                  url: '/post/' + self.attr('data-id') + '/deactivate',
+                  method: 'POST',
+              }).done(function() {
+                  self.closest('tr').addClass('success').addClass('text-muted');
+              }).fail(function() {
+              });
+          });
+      });
     </script>
   </body>
 </html>

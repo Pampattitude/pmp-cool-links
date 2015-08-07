@@ -77,6 +77,16 @@ var main = function() {
   // Home
   router.get('/', buildMainPage);
   router.get('/:admin', buildMainPage);
+  router.post('/post/:postId/deactivate', function(req, res) {
+    return mongo.db.model('Post').findOneAndUpdate({_id: req.params.postId}, {$set: {active: false}}, function(err) {
+      if (err) {
+        console.err(err.stack || err.message || err);
+        return res.sendStatus(500);
+      }
+
+      return res.sendStatus(200);
+    });
+  });
   router.get('/manifest.json', function(req, res) { return res.sendFile(__dirname + '/views/manifest.json'); });
 
   // Not found
