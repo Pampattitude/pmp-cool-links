@@ -1,0 +1,8 @@
+{
+  "short_name": "Links - Pampattitu.de",
+  "name": "Cool Links - Pampattitu.de",
+  "icons": [
+  ],
+  "start_url": "/admin",
+  "display": "standalone"
+}

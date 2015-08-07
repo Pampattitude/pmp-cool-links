@@ -35,7 +35,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="fragment" content="!" />
 
+    <% if ('undefined' !== typeof isAdmin && true === isAdmin) { %>
+    <link rel="manifest" href="/manifest-admin.json" />
+    <% } else { %>
     <link rel="manifest" href="/manifest.json" />
+    <% } %>
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/materialdesignicons.min.css">
