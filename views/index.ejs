@@ -51,24 +51,16 @@
       vertical-align: middle;
       }
       .table thead>tr>th{
-      font-size: 1.4em;
+font-size: 2em;
       text-align: center;
       }
     </style>
   </head>
 
   <body class="container-fluid" style="padding: 0;">
-    <header style="margin-bottom: 3.6em; text-align: center; border-bottom: 1px solid rgba(0, 0, 0, 0.2);">
-      <center class="jumbotron" style="margin-bottom: 0;">
-        <h1>Pampa's cool links bot</h1>
-        <div class="container" style="font-size: 4em;">
-          <div class="row">
-            <div class="col-xs-12">
-              <a href="https://www.reddit.com/" target="_blank"><span class="fa fa-home"></span></a>
-              <a href="https://www.reddit.com/" target="_blank"><span class="fa fa-reddit"></span></a>
-            </div>
-          </div>
-        </div>
+    <header style="margin-bottom: 3.6em; text-align: center; background-color: #668C4D; border-bottom: 1px solid rgba(0, 0, 0, 0.2);">
+      <center style="padding: 1em; margin-bottom: 0;">
+        <a href="http://pampattitu.de"><img src="http://i.imgur.com/kTP75P9.png" alt="Pampa's cool links bot" /></a>
       </center>
     </header>
 
@@ -77,7 +69,7 @@
         <thead>
           <tr>
             <th><span class="mdi mdi-clipboard-text"></span></th>
-            <th class="hidden-xs hidden-sm" style="width: 5em;"><span class="mdi mdi-chart-pie"></span></th>
+            <th class="hidden-xs hidden-sm" style="width: 7em;" colspan="2"><span class="mdi mdi-chart-pie"></span></th>
             <th class="hidden-xs hidden-sm" style="width: 6em;"><span class="mdi mdi-calendar"></span></th>
             <% if ('undefined' !== typeof isAdmin && true === isAdmin) { %>
             <th style="width: 3.6em;"><span class="mdi mdi-briefcase"></span></th>
@@ -97,13 +89,8 @@
             </td>
             <td class="hidden-xs hidden-sm" style="text-align: center;">
               <strong class="text-primary"><%= post.score %></strong>
-              <br />
-
-              <!-- 
-                   <small><%= post.percentage * 100 %>%</small>
-                   <br />
-                   -->
-
+            </td>
+            <td class="hidden-xs hidden-sm" style="text-align: center;">
               <small>
                 <strong class="text-success"><span class="mdi mdi-arrow-up-bold-circle"></span> <%= post.votes.ups %></strong>
                 -
@@ -137,6 +124,10 @@
     </div>
 
     <footer style="margin-top: 3.6em; padding-top: 1em; text-align: center; border-top: 1px solid rgba(0, 0, 0, 0.2);">
+      <p>
+        This website is powered by <a href="http://expressjs.com">Express.js</a> and a custom Reddit bot. See the source <a href="https://github.com/Pampattitude/pmp-cool-links">on GitHub</a>.
+      </p>
+
       <p>
         Made with <span style="color:rgb(200, 140, 200);">love</span>, <a href="http://getbootstrap.com">Bootstrap</a>, <a href="http://fortawesome.github.io/Font-Awesome/icons/">Font Awesome</a> and <a href="https://materialdesignicons.com/">MD icons</a>.
       </p>
