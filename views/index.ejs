@@ -65,6 +65,11 @@ font-size: 2em;
     </header>
 
     <div class="container" style="padding: 0;">
+      <div class="pull-right" style="padding-right: 1em;">
+        <label for="onlyActive">Hide deactivated?</label> <input type="checkbox" id="onlyActive" />
+      </div>
+      <div class="clearfix" style="margin-bottom: 1em;"></div>
+
       <table class="table table-hover table-responsive table-condensed" style="width: 100%; table-layout: fixed;">
         <thead>
           <tr>
@@ -82,10 +87,10 @@ font-size: 2em;
           <% for (var i = 0 ; posts.length > i ; ++i) {
           var post = posts[i];
           %>
-          <tr<% if ('undefined' !== typeof post.active && false === post.active) { %> class="success text-muted"<% } %>>
+          <tr<% if ('undefined' !== typeof post.active && false === post.active) { %> class="deactivated-post success text-muted"<% } %>>
             <td>
               <strong style="font-size: 1.15em;"><%= post.origin %></strong>:
-              <a href="<%= post.link %>" target="_blank"><%- post.title %></a>
+              <a class="post-title" href="<%= post.link %>" target="_blank"><%- post.title %></a>
             </td>
             <td class="hidden-xs hidden-sm" style="text-align: center;">
               <strong class="text-primary"><%= post.score %></strong>
@@ -172,13 +177,36 @@ font-size: 2em;
                   url: '/post/' + self.attr('data-id') + '/deactivate',
                   method: 'POST',
               }).done(function() {
-                  self.closest('tr').addClass('success').addClass('text-muted');
+                  self.closest('tr').addClass('deactivated-post').removeClass('info').addClass('success').addClass('text-muted');
+                  if ($('input#onlyActive').prop('checked'))
+                      $('tr.deactivated-post').addClass('hidden-xs').addClass('hidden-sm').addClass('hidden-md').addClass('hidden-lg');
               }).fail(function() {
               });
           };
 
+          // Deactivation
           $('.twitter.popup').click(deactivate);
           $('.deactivate').click(deactivate);
+
+          // Only active
+          $('input#onlyActive').change(function() {
+              var self = $(this);
+
+              if (self.prop('checked'))
+                  $('tr.deactivated-post').addClass('hidden-xs').addClass('hidden-sm').addClass('hidden-md').addClass('hidden-lg');
+              else
+                  $('tr.deactivated-post').removeClass('hidden-xs').removeClass('hidden-sm').removeClass('hidden-md').removeClass('hidden-lg');
+          });
+
+          // Make it stand out on click
+          $('.post-title').click(function() {
+              $('tr').removeClass('info');
+              $(this).closest('tr:not(.deactivated-post)').addClass('info');
+          });
+          $('tr').click(function() {
+              $('tr').removeClass('info');
+              $(this).closest('tr:not(.deactivated-post)').addClass('info');
+          });
       });
     </script>
   </body>
