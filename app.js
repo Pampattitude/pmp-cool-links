@@ -6,10 +6,16 @@ var express = require('express');
 var mongo = require('./mongo');
 
 var buildMainPage = function(req, res) {
-    var minDate = new Date();
-    minDate.setDate(minDate.getDate() - 7);
+    var minDate = new Date(); minDate.setDate(minDate.getDate() - 7);
+    var minDateInactive = new Date(); minDateInactive.setDate(minDateInactive.getDate() - 1);
 
-    return mongo.db.model('Post').find({date: {$gte: minDate}}).sort({date: -1}).exec(function(err, posts) {
+    return mongo.db.model('Post').find({
+        $or: [
+            {active: true, date: {$gte: minDate}},
+            {active: null, date: {$gte: minDate}},
+            {active: false, date: {$gte: minDateInactive}},
+        ],
+    }).sort({date: -1}).exec(function(err, posts) {
         if (err) {
             console.error(err.stack || err.message || err);
             return res.sendStatus(500);
