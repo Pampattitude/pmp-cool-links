@@ -57,4 +57,6 @@ module.exports.request = function(options, callback) {
 
   return request_(options, paddCallback);
 };
-module.exports.warnLogger = console.error;
+module.exports.warnLogger = function() {
+    console.error.apply(console, [new Date().toISOString()].concat(arguments));
+};
