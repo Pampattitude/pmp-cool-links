@@ -112,7 +112,7 @@ font-size: 2em;
           <tr<% if ('undefined' !== typeof post.active && false === post.active) { %> class="deactivated-post success text-muted hidden-xs hidden-sm hidden-md hidden-lg"<% } %>>
             <td>
               <strong style="font-size: 1.15em;"><%= post.origin %></strong>:
-              <a class="post-title" href="<%= post.link %>" target="_blank"><%- post.title %></a>
+              <a class="post-title" href="<%= post.link %>" target="_blank"><%- post.title %></a> <% if ('undefined' !== typeof post.originLink) { %><a class="btn btn-primary" href="http://www.reddit.com<%= post.originLink %>" target="_blank"><span class="fa fa-external-link"></span></a><% } %>
             </td>
             <td class="hidden-xs hidden-sm" style="text-align: center;">
               <strong class="text-primary"><%= post.score %></strong>

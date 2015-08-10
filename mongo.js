@@ -7,6 +7,7 @@ var registerSchemas_ = function() {
     externalId: {type: String, required: true, unique: true},
 
     origin: {type: String, required: true, default: 'Reddit'},
+    originLink: {type: String},
     title: {type: String, required: true},
     author: {type: String, default: 'unknown'},
     link: {type: String, required: true},

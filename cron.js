@@ -21,7 +21,9 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
     return reddit.request({
         uri: '/r/' + options.subreddit + '/new',
         qs: {
-            limit: 50,
+            limit: 100,
+            show: 'all',
+            sr_detail: true,
         },
     }, function(err, result) {
         if (err)
@@ -42,24 +44,64 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
             if (options.minPercentage / 100 > post.data.ups / ((post.data.ups + post.data.downs) || 1))
                 return postCallback();
 
-            interestingPosts.push({
-                externalId: post.data.id,
-                
-                title: post.data.title,
-                author: post.data.author,
-                link: post.data.url,
+            var score = 1;
 
-                score: post.data.score,
-                percentage: post.data.ups / ((post.data.ups + post.data.downs) || 1),
-                votes: {
-                    ups: post.data.ups,
-                    downs: post.data.downs,
+            var atEnd = function(err) {
+                if (err)
+                    return postCallback(err);
+
+                var ups = parseInt(Math.round(post.data.score * score), 10);
+                var downs = parseInt(Math.round(post.data.score - post.data.score * score), 10);
+                var actualScore = ups - downs;
+
+                interestingPosts.push({
+                    externalId: post.data.id,
+
+                    origin: options.subreddit,
+                    originLink: post.data.permalink,
+                    title: post.data.title,
+                    author: post.data.author,
+                    link: post.data.url,
+
+                    score: actualScore,
+                    percentage: score,
+                    votes: {
+                        ups: ups,
+                        downs: downs,
+                    },
+
+                    date: new Date(post.data.created_utc * 1000),
+                });
+
+                return postCallback();
+            };
+
+            return reddit.request({
+                uri: '/r/' + options.subreddit + '/comments/' + post.data.id,
+                qs: {
+                    limit: 100,
+                    show: 'all',
+                    sr_detail: true,
                 },
+            }, function(err, result) {
+                if (err)
+                    return atEnd(err);
 
-                date: new Date(post.data.created_utc * 1000),
+                if (!result || !result.length)
+                    return atEnd();
+
+                result.forEach(function(rst) {
+                    rst.data.children.forEach(function(actualPost) {
+                        if ('t3' !== actualPost.kind) // Post data
+                            return ;
+
+                        if (undefined !== actualPost.data.upvote_ratio)
+                            score = actualPost.data.upvote_ratio;
+                    });
+                });
+
+                return atEnd();
             });
-
-            return postCallback();
         }, function(err) {
             if (err)
                 return finalCallback(err);
@@ -158,7 +200,7 @@ var main = function(finalCallback) {
                 return subredditCallback(err);
 
             console.log(new Date().toISOString() + ': ' + postResults.length + ' posts obtained for /r/' + subredditOptions.subreddit);
-            posts = posts.concat(postResults.map(function(post) { post.origin = subredditOptions.subreddit; return post; }));
+            posts = posts.concat(postResults);
 
             return subredditCallback();
         });
