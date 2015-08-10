@@ -41,14 +41,14 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
 
             if (options.minScore > post.data.score) // Skip scores too low
                 return postCallback();
-            if (options.minPercentage / 100 > post.data.ups / ((post.data.ups + post.data.downs) || 1))
-                return postCallback();
 
             var score = 1;
 
             var atEnd = function(err) {
                 if (err)
                     return postCallback(err);
+                if (options.minPercentage / 100 > score)
+                    return postCallback();
 
                 var ups = parseInt(Math.round(post.data.score * score), 10);
                 var downs = parseInt(Math.round(post.data.score - post.data.score * score), 10);
@@ -189,6 +189,11 @@ var main = function(finalCallback) {
             subreddit: 'themakingofgames',
             minScore: 40,
             minPercentage: 90,
+        },
+
+        {
+            subreddit: 'gamephysics',
+            minScore: 750,
         },
     ];
 
