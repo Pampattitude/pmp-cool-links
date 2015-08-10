@@ -136,66 +136,7 @@ var savePosts_ = function(posts, callback) {
 
 
 var main = function(finalCallback) {
-    var subreddits = [
-        {
-            subreddit: 'gamedesign',
-        },
-
-        {
-            subreddit: 'gamedev',
-            allowSelf: true,
-            minScore: 50,
-            minPercentage: 90,
-        },
-
-        {
-            subreddit: 'IndieGaming',
-            minScore: 50,
-            minPercentage: 95,
-        },
-
-        {
-            subreddit: 'node',
-            minScore: 40,
-            minPercentage: 90,
-        },
-
-        {
-            subreddit: 'playmygame',
-            allowSelf: true,
-            minPercentage: 80,
-        },
-
-        {
-            subreddit: 'Unity2D',
-            minScore: 30,
-            minPercentage: 85,
-        },
-
-        {
-            subreddit: 'Unity3D',
-            minScore: 35,
-            minPercentage: 85,
-        },
-
-        {
-            subreddit: 'ludology',
-            allowSelf: true,
-            minScore: 30,
-            minPercentage: 90,
-        },
-
-        {
-            subreddit: 'themakingofgames',
-            minScore: 40,
-            minPercentage: 90,
-        },
-
-        {
-            subreddit: 'gamephysics',
-            minScore: 750,
-        },
-    ];
+    var subreddits = require('./cronfig.js');
 
     var posts = [];
     return async.eachSeries(subreddits, function(subredditOptions, subredditCallback) {
