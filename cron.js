@@ -138,7 +138,14 @@ var main = function(finalCallback) {
 
         {
             subreddit: 'ludology',
+            allowSelf: true,
             minScore: 30,
+            minPercentage: 90,
+        },
+
+        {
+            subreddit: 'themakingofgames',
+            minScore: 40,
             minPercentage: 90,
         },
     ];
