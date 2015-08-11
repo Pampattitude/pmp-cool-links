@@ -58,4 +58,10 @@ module.exports = [
         minScore: 750,
         minPercentage: 75,
     },
+
+    {
+        subreddit: 'pixelart',
+        minScore: 150,
+        minPercentage: 75,
+    },
 ];

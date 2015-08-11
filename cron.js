@@ -21,9 +21,7 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
     return reddit.request({
         uri: '/r/' + options.subreddit + '/new',
         qs: {
-            limit: 100,
-            show: 'all',
-            sr_detail: true,
+            limit: 50,
         },
     }, function(err, result) {
         if (err)
@@ -79,9 +77,7 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
             return reddit.request({
                 uri: '/r/' + options.subreddit + '/comments/' + post.data.id,
                 qs: {
-                    limit: 100,
-                    show: 'all',
-                    sr_detail: true,
+                    limit: 50,
                 },
             }, function(err, result) {
                 if (err)
@@ -160,7 +156,7 @@ var main = function(finalCallback) {
 
 
 var looper = function() {
-    var loopTime = 1 * 60 * 60 * 1000; // 1h
+    var loopTime = 10 * 60 * 1000; // 1h
     return main(function(err) {
         if (err) {
             console.error(new Date().toISOString() + ': ' + err.stack || err.message || err);
