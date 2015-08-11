@@ -23,7 +23,7 @@ var request_ = function(options, callback) {
     if (err)
       return callback(err);
     if (200 !== res.statusCode)
-      return callback(new Error('Wrong status code received'));
+      return callback(new Error('Wrong status code ' + res.statusCode + ' received'));
 
     if (warn)
       module.exports.warnLogger(warn);
