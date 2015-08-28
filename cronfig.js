@@ -1,12 +1,14 @@
 module.exports = [
     {
         subreddit: 'gamedesign',
+        allowSelf: true,
+        minScore: 5,
     },
 
     {
         subreddit: 'gamedev',
         allowSelf: true,
-        minScore: 50,
+        minScore: 40,
         minPercentage: 80,
     },
 
@@ -30,21 +32,21 @@ module.exports = [
 
     {
         subreddit: 'Unity2D',
-        minScore: 30,
-        minPercentage: 75,
+        minScore: 25,
+        minPercentage: 70,
     },
 
     {
         subreddit: 'Unity3D',
-        minScore: 35,
-        minPercentage: 75,
+        minScore: 30,
+        minPercentage: 70,
     },
 
     {
         subreddit: 'ludology',
         allowSelf: true,
         minScore: 30,
-        minPercentage: 85,
+        minPercentage: 80,
     },
 
     {
@@ -55,13 +57,13 @@ module.exports = [
 
     {
         subreddit: 'gamephysics',
-        minScore: 750,
-        minPercentage: 75,
+        minScore: 600,
+        minPercentage: 70,
     },
 
     {
         subreddit: 'pixelart',
-        minScore: 150,
-        minPercentage: 75,
+        minScore: 100,
+        minPercentage: 70,
     },
 ];

@@ -21,8 +21,9 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
     return reddit.request({
         uri: '/r/' + options.subreddit + '/new',
         qs: {
-            limit: 50,
+            limit: 20,
         },
+        timeout: 10000, //ms
     }, function(err, result) {
         if (err)
             return finalCallback(err);
@@ -77,8 +78,9 @@ var getInterestingPostsFromSubreddit = function(options, finalCallback) {
             return reddit.request({
                 uri: '/r/' + options.subreddit + '/comments/' + post.data.id,
                 qs: {
-                    limit: 50,
+                    limit: 20,
                 },
+                timeout: 10000, //ms
             }, function(err, result) {
                 if (err)
                     return atEnd(err);
